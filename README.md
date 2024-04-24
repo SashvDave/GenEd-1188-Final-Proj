@@ -1,5 +1,13 @@
-#Documentation Link:#
+**Documentation Link:**
+-
 https://docs.google.com/document/d/16O8fGtGIdWPeSlGGBRl_4zqwy7YT3llJQqpMjUFHcdI/edit?usp=sharing, 
 
-#Production URL for testing:#
+**Production URL for testing:**
+-
 https://gen-ed-1188-final-project.vercel.app/
+
+**Reflections:**
+- 
+- How I used GAI in my project: (1) My project is based around creating a template for other students to build products on top of OpenAI's API. So, one of the key ways in which I've used GAI in my project is by implementing the different endpoints for generating text, images, and audio so that students have those capabilites out of the box if they want to build on top of the API. (2) Second, I use ChatGPT and AI-infused tools like Cursor in the development process for this. For example, I used ChatGPT to debug some of the issues I was running into with calling the API and I used Cursor to generate some of the components for students to use out-of-the-box. (3) Finally, I used AI tools like ChatGPT and Anthropic to generate the documentation for the repository. I used the different sources and merged them based on which section was better in each generation.
+- I believe my use of GAI in this project was balanced and well-implemented. I did not rely entirely on AI-enabled tools to do my work, which enabled me to learn several new things throughout the development process. However, I also did not refrain from asking for help when I needed it by prompting GPT or other AI tools. Interestingly enough, the help from GPT was good for pointing out fundamental misunderstandings in my implementations like how I was calling an endpoint, but not very good at pointing out obvious things like trying to decode an object from JSON when the original object return type was not in JSON. As such, I find that having a good understanding of how to debug and find solutions on your own is still a good and necessary skill to have in the AI era.
+- Satisfying final criteria: (1) The topic I am getting at with this project is about being able to productize the models OpenAI and other AI labs have created. This is done by creating a website template in a production-ready framework so students can learn about how all of these AI startups build their products. (2) Beyond what we've learned this year, I had to read documentation on React, NextJS, and Tailwind CSS along with API documentation on how to make post requests and display multi-modal data. (3) I used GAI in a 'relevant and creative way' by not only using it to generate parts of my project but by having it be the fundamental backbone of my project. (4) Reflection in the previous bullet point. (5) Documentation and production URLs attached above.
