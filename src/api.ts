@@ -3,7 +3,7 @@ export const callOpenAiApi = async (params) => {
   console.log("called function");
   console.log(prompt);
   console.log(type);
-  const API_KEY = "YOUR_API_KEY_HERE";
+  const API_KEY = "YOUR_API_KEY";
 
   const systemMessage = {
     role: "system",

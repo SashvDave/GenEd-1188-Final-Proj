@@ -5,7 +5,7 @@ function App() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    document.title = "Papers to Inbox";
+    document.title = "GenEd 1188 Final Project";
     const checkIfMobile = () => {
       setIsMobile(window.innerWidth < 768);
     };
